@@ -14,11 +14,25 @@ También se añadieron condiciones de seguridad. Si el sensor óptico detecta un
 Por último, el sistema cuenta con dos luces indicadoras: la lámpara roja se enciende mientras la cortina está en movimiento, ya sea subiendo o bajando. Cuando la cortina llega completamente abajo, se enciende la lámpara verde, indicando que el sistema se encuentra en esa posición y el temporizador está en espera antes de que la cortina vuelva a subir.
 
 ## Entradas y salidas
+
+### Entradas
 | Entrada | Tipo | Función |
 |--------|------|---------|
+| I1 | Sensor inductivo | Detecta la condición de activación del sistema. Solo permite iniciar el ciclo cuando el sensor magnético superior confirma que la cortina está en la posición inicial. |
+| I2 | Sensor capacitivo | Funciona como paro o control de seguridad manual. Cuando se activa, el sistema detiene el movimiento de la cortina. |
+| I3 | Sensor óptico | Detecta la presencia de una persona u objeto en la zona de la cortina. Si se activa durante el movimiento, el sistema detiene la cortina para evitar accidentes. |
+| I4 | Sensor magnético superior | Detecta que la cortina está completamente arriba y permite que el sistema pueda iniciar el ciclo de operación. |
+| I5 | Sensor magnético medio | Indica que la cortina se encuentra en una posición intermedia durante el recorrido. |
+| I6 | Sensor magnético inferior | Detecta que la cortina ha llegado completamente abajo y activa el temporizador de 10 segundos antes de iniciar la subida. |
 
+### Salidas
 | Salida | Tipo | Función |
 |--------|------|---------|
+| Q1 | Motor | Activa el motor para bajar la cortina. |
+| Q2 | Motor | Activa el motor para subir la cortina. |
+| Q3 | Lámpara roja | Se enciende cuando la cortina está en movimiento, ya sea subiendo o bajando. |
+| Q4 | Lámpara verde | Se enciende cuando la cortina ha llegado completamente abajo y permanece detenida durante el temporizador. |
+
 
 ## Pruebas realizadas
 | Prueba | Resultado esperado | Resultado obtenido |
