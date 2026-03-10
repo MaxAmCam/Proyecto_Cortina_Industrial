@@ -1,7 +1,17 @@
 # Hito 3 – Control e Integración
 
 ## Descripción de la lógica de control
-Explica la secuencia o lógica implementada en LOGO.
+El programa se desarrolló en Siemens LOGO! para controlar el movimiento de una cortina automática utilizando distintos sensores. La idea principal es que la cortina pueda subir y bajar de forma controlada, pero también que el sistema se detenga si ocurre alguna situación de seguridad.
+
+El sistema puede iniciar su funcionamiento cuando el sensor inductivo detecta una condición de activación, pero solo si el sensor magnético superior detecta el imán. Esto se hizo para asegurarse de que la cortina realmente está en la posición superior antes de comenzar el ciclo.
+
+Durante el funcionamiento, el movimiento de la cortina se controla con dos salidas: una para bajar el motor y otra para subir. Además, se utilizan tres sensores magnéticos (arriba, medio y abajo) para saber en qué posición se encuentra la cortina en todo momento y así evitar que el motor siga moviéndose cuando ya llegó a su límite.
+
+Cuando la cortina llega hasta abajo y el sensor magnético inferior detecta el imán, el sistema activa un temporizador de 10 segundos. Durante ese tiempo la cortina permanece detenida y, una vez que se cumple el tiempo, el sistema activa nuevamente el motor para que la cortina vuelva a subir automáticamente.
+
+También se añadieron condiciones de seguridad. Si el sensor óptico detecta una persona, el sistema detiene el movimiento de la cortina para evitar que alguien pueda quedar atrapado. De la misma manera, si se activa el sensor capacitivo, la cortina también se detiene.
+
+Por último, el sistema cuenta con dos luces indicadoras: la lámpara roja se enciende mientras la cortina está en movimiento, ya sea subiendo o bajando. Cuando la cortina llega completamente abajo, se enciende la lámpara verde, indicando que el sistema se encuentra en esa posición y el temporizador está en espera antes de que la cortina vuelva a subir.
 
 ## Entradas y salidas
 | Entrada | Tipo | Función |
