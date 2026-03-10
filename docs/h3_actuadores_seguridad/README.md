@@ -34,7 +34,7 @@ Por último, el sistema cuenta con dos luces indicadoras: la lámpara roja se en
 | Q4 | Lámpara verde | Se enciende cuando la cortina ha llegado completamente abajo y permanece detenida durante el temporizador. |
 
 ## Esquema funcional 
-![Esquema](../GIFTS/ESQUEMA.png)
+![Esquema](../GIFTS/ESQUEMAA.png)
 
 ## Pruebas realizadas
 | Prueba | Resultado esperado | Resultado obtenido |
