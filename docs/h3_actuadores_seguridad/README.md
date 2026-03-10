@@ -53,9 +53,11 @@ Describe cambios hechos tras las pruebas.
 | Interlock de seguridad por obstáculo | Bajar la cortina cuando se detecta una persona u objeto | I3 (sensor óptico) | Se detiene el movimiento | Si el sensor óptico detecta una persona u objeto durante el movimiento, el sistema detiene la cortina para evitar accidentes. |
 | Interlock de paro de emergencia | Continuar el movimiento cuando se activa el paro manual | I1 (sensor capacitivo) | Se detiene inmediatamente el sistema | El sensor capacitivo funciona como un paro manual de seguridad. Cuando se activa, el sistema cancela el movimiento de la cortina para prevenir riesgos. |
 
+## Evidencia de seguridad (prueba de interlocks)
+Aqui poner el video
+
 ## Evidencia del funcionamiento correcto de la torre de luz
 ![Semaforo](../GIFTS/Funcionamientosemaforo.gif)
 
 La torre de luz permite identificar visualmente el estado de funcionamiento del sistema. La luz roja se enciende cuando la cortina está en movimiento, ya sea durante la subida o la bajada, indicando que el mecanismo se encuentra operando. Por otro lado, la luz verde se enciende cuando la cortina ha llegado completamente a la posición inferior y permanece detenida mientras se cumple el temporizador antes de iniciar nuevamente la subida.
 
-##
