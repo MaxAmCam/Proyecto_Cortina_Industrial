@@ -2,17 +2,17 @@
 # Bitácora de Uso de Inteligencia Artificial (IA)
 
 ## Información general
-- **Equipo:**  
-- **Integrantes:**  
-- **Semana / Hito:** (H1 / H2 / H3 / H4 / H5)  
-- **Fecha:**  
-
+- **Equipo: 2**  
+- **Integrantes: Joel Soto. Claudio Gómez. Sara Díaz. Max Amezcua**  
+- **Semana / Hito:** (H5)  
+- **Fecha: 11/03/2026**  
 ---
+
 
 ## 1️⃣ Uso de IA en esta etapa
 Marca una opción:
 
-- ⬜ No se utilizó IA en esta etapa  
+- 🟪 No se utilizó IA en esta etapa  
 - ⬜ Sí se utilizó IA de forma puntual  
 - ⬜ Sí se utilizó IA de forma recurrente  
 
@@ -116,15 +116,15 @@ Marca y explica:
 Indica **cómo se verificó** la información antes de usarla:
 
 - ⬜ Comparación con apuntes/clase  
-- ⬜ Prueba en el sistema real  
-- ⬜ Discusión en equipo  
+- 🟪 Prueba en el sistema real  
+- 🟪 Discusión en equipo  
 - ⬜ Consulta con el profesor  
 - ⬜ Otra: ______________________  
 
 **Evidencia o explicación breve de la verificación:**
 ```
 
-(escribir aquí)
+En esta etapa del proyecto no fue necesario utilizar inteligencia artificial, ya que el trabajo se basó en el código, la lógica de control y las configuraciones que ya se habían desarrollado en entregas anteriores. Nos enfocamos en utilizar lo que ya se tenía y en verificar el funcionamiento del sistema mediante pruebas directas en la cortina. Además, las decisiones y ajustes se discutieron entre los integrantes del equipo y con apoyo de lo visto en clase.
 
 ```
 
@@ -140,8 +140,7 @@ Reflexiona brevemente:
 
 ```
 
-(escribir aquí)
-
+Aunque en esta etapa no utilizamos inteligencia artificial, durante el desarrollo del proyecto la IA nos ayudó principalmente a organizar ideas, mejorar la redacción y estructurar mejor la documentación. Esto nos permitió presentar la información de manera más clara y ordenada.
 ```
 
 ---
@@ -151,7 +150,7 @@ Reflexiona brevemente:
 
 ```
 
-(escribir aquí)
+Aprendimos que la inteligencia artificial puede ser una herramienta útil como apoyo para organizar información, generar estructuras de reportes o aclarar algunos conceptos. Pero también es importante trabajar directamente con el sistema real y aplicar los conocimientos adquiridos en clase para resolver problemas técnicos.
 
 ```
 
@@ -165,5 +164,11 @@ Declaramos que:
 
 **Firma del equipo (nombres):**
 ```
+Max Amezcua
 
+Joel Soto
+
+Claudio Gomez
+
+Sara Díaz
 
