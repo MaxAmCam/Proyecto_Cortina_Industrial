@@ -2,7 +2,7 @@
 ## Objetivo del hito
 Validar el funcionamiento integrado del sistema mecatrónico y la interacción con el
 usuario mediante HMI.
----
+
 ## Estado general del sistema
 Marca el estado actual del sistema:
 - No funcional⬜
