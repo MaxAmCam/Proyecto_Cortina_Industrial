@@ -41,7 +41,7 @@ De¿urante esta semana terminamos todas las conexiones faltantes, terminamos de 
 ## Decisiones de ingeniería
 | Decisión | Alternativas | Justificación |
 |--------|-------------|---------------|
-Usar reles para invertir el sentido del motor | Cambiar el sentido del motor por medio de mas cableado| Usamos los reles para poder invertid la polaridad  asi cambiar la direccion de giro del motor en el momento en que sea conveniente.
+Usar relés para invertir el sentido del motor | Cambiar el sentido del motor por medio de mas cableado| Usamos los relés para poder invertir la polaridad y asi cambiar la direccion de giro del motor en el momento en que sea conveniente.
 
 ## Problema técnico encontrado
 El programa cargado en el LOGO! no funciono como esperamos. La cortina se atascaba al momento de encender el motor.
