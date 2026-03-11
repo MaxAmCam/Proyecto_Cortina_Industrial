@@ -124,7 +124,7 @@ Indica **cómo se verificó** la información antes de usarla:
 **Evidencia o explicación breve de la verificación:**
 ```
 
-En esta etapa del proyecto no fue necesario utilizar inteligencia artificial, ya que el trabajo se basó en el código, la lógica de control y las configuraciones que ya se habiamos desarrollado en entregas anteriores. Nos enfocamos en utilizar lo que ya se tenía y en verificar el funcionamiento del sistema mediante pruebas directas en la cortina. Además, las decisiones y ajustes se discutieron entre los integrantes del equipo y con apoyo de lo visto en clase.
+En esta etapa del proyecto no fue necesario utilizar inteligencia artificial, ya que el trabajo se basó en el código, la lógica de control y las configuraciones que ya habiamos desarrollado en entregas anteriores. Nos enfocamos en utilizar lo que ya se tenía y en verificar el funcionamiento del sistema mediante pruebas directas en la cortina. Además, las decisiones y ajustes se discutieron entre los integrantes del equipo y con apoyo de lo visto en clase.
 
 ```
 
