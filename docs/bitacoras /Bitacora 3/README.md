@@ -91,27 +91,31 @@ Esta semana aplicamos conceptos de control vistos en el curso, especialmente la 
 # Bitácora – Semana 3- Sara
 
 ## Tema de la semana
-(Sensores / Actuadores / Control / HMI)
+Actuadores y lógica de control del sistema
 
 ## Actividades realizadas
-Describe brevemente lo que trabajó el equipo.
+Durante esta semana agregamos el motor al sistema para poder mover la cortina y también instalamos el semáforo que indica los estados del sistema. Después de eso modificamos el diagrama de control que nos había dado el profesor, ya que queríamos cambiar algunas acciones para que el sistema funcionara de la manera que habíamos planeado. Uno de los cambios fue que el sensor inductivo, junto con el sensor magnético, fuera el que iniciara la bajada de la cortina. También cambiamos la función del sensor capacitivo para que funcionara como botón de paro de emergencia.
+
+Además tuvimos que modificar una parte de la lógica porque el sistema solo se detenía cuando el sensor capacitivo y el sensor infrarrojo estaban activados al mismo tiempo. Nosotros queríamos que el sistema se detuviera cuando cualquiera de los dos estuviera activado, así que hicimos ese ajuste. Después instalamos la cortina y realizamos varias pruebas para asegurarnos de que todo funcionara correctamente. 
 
 ## Decisiones de ingeniería
 | Decisión | Alternativas | Justificación |
 |--------|-------------|---------------|
+|Usar el sensor capacitivo como botón de paro|Se eligió el sensor capacitivo porque permite detener el sistema rápidamente al detectar la mano. En cambio, el sensor inductivo requiere un objeto metálico para activarse y esto no es ideal en una situación de emergencia donde el tiempo de reacción es crucial.|
+|Modificar el diagrama de control original|Mantener el mismo diagrama que nos dio el profesor|Esto nos permitio adaptar el sistema a las necesidades específicas del proyecto y mejorar su funcionamiento.|
 
 ## Problema técnico encontrado
-Describe un problema concreto.
+Tuvimos algunas dificultades al modificar la lógica del programa porque al principio no entendíamos completamente cómo hacer los cambios dentro del diagrama de control.
 
 ## Solución aplicada
-Explica cómo se resolvió.
+Consultamos con el profesor y además revisamos nuevamente el diagrama y ajustamos la lógica hasta que el sistema funcionara correctamente. Después de eso hicimos pruebas para confirmar que el funcionamiento era el que queríamos.
 
 ## Conexión con el curso
 ¿Qué concepto de MR2022 aplicaste esta semana?
+Esta semana aplicamos conceptos de control que hemos visto en el curso. Trabajamos con sensores, actuadores y lógica dentro del PLC para controlar el movimiento del motor de la cortina. También aplicamos medidas de seguridad como los interlocks para evitar errores en el funcionamiento del sistema.
 
 ## Autoevaluación
 - ⬜ Muy perdido
 - ⬜ Con dudas
-- ⬜ Entendiendo
+- ☑️ Entendiendo
 - ⬜ Dominando
-
