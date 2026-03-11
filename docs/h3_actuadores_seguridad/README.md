@@ -41,7 +41,7 @@ Por último, el sistema cuenta con dos luces indicadoras: la lámpara roja se en
 |------|------------------|------------------|
 
 ## Ajustes realizados
-Describe cambios hechos tras las pruebas.
+Tuvimos que realizar cambios en el codigo para hacer que el sensor inductivo de inicio al movimiento del motor, y que los sensores infrarrojo y capacitivo hagan paradas de emergencia.
 
 ## Evidencia de seguridad (prueba de interlocks)
 Aqui poner el video
