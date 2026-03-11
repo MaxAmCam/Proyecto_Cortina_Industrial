@@ -101,7 +101,7 @@ Además tuvimos que modificar una parte de la lógica porque el sistema solo se 
 ## Decisiones de ingeniería
 | Decisión | Alternativas | Justificación |
 |--------|-------------|---------------|
-|Usar el sensor capacitivo como botón de paro|Se eligió el sensor capacitivo porque permite detener el sistema rápidamente al detectar la mano. En cambio, el sensor inductivo requiere un objeto metálico para activarse y esto no es ideal en una situación de emergencia donde el tiempo de reacción es crucial.|
+|Usar el sensor capacitivo como botón de paro|Mantenerlo con el sensor inductivo|Se eligió el sensor capacitivo porque permite detener el sistema rápidamente al detectar la mano. En cambio, el sensor inductivo requiere un objeto metálico para activarse y esto no es ideal en una situación de emergencia donde el tiempo de reacción es crucial.|
 |Modificar el diagrama de control original|Mantener el mismo diagrama que nos dio el profesor|Esto nos permitio adaptar el sistema a las necesidades específicas del proyecto y mejorar su funcionamiento.|
 
 ## Problema técnico encontrado
