@@ -87,7 +87,7 @@ En esta etapa se aplicaron conceptos relacionados con la validación de sistemas
 # Bitácora – Semana 4 Sara
 
 ## Tema de la semana
-Control y pruebas finales del sistema.
+Control y pruebas finales del sistema
 
 ## Actividades realizadas
 Durante esta semana realizamos pruebas al sistema completo de la cortina para verificar que todos los componentes funcionaran correctamente después de haber terminado el montaje. Probamos el motor, los sensores y el semáforo para confirmar que respondieran como queriamos. 
@@ -97,6 +97,9 @@ También revisamos que los interlocks funcionaran bien para evitar que el motor 
 ## Decisiones de ingeniería
 | Decisión | Alternativas | Justificación |
 |--------|-------------|---------------|
+| Diseñar e imprimir soportes para la cortina usando menos material | Imprimir soportes más grandes utilizando más filamento | Se decidió diseñar los soportes con menos material para optimizar el tiempo de impresión |
+| Ajustar la posición de los sensores durante la instalación | Colocar los sensores sin ajustar su posición | Se decidió acomodar cuidadosamente los sensores para asegurar que detectaran correctamente los objetos y evitar fallos|
+| Diseñar un soporte para el motor | Sujetarlo solo con cinchos o cinta | Se decidió diseñar un soporte para que el motor quedara más estable y el sistema se viera más ordenado y profesional |
 
 ## Problema técnico encontrado
 Durante las pruebas del sistema el motor dejó de funcionar. Al revisar el sistema nos dimos cuenta de que un relé estaba mal conectado, ya que los cables se movieron mientras hacíamos otras modificaciones.
