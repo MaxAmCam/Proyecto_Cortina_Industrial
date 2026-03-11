@@ -12,27 +12,19 @@ Marca el estado actual del sistema:
 ---
 ## Secuencia de operación validada
 1. El sistema inicia en estado de reposo con la cortina en la posición superior, detectada por el sensor magnético superior.
-
 2. El usuario acerca un objeto metálico al sensor inductivo, lo cual envía la señal de activación al PLC.
-
 3. El PLC verifica que el sensor magnético superior esté activo, confirmando que la cortina se encuentra en su posición inicial antes de iniciar el ciclo.
-
 4. Una vez validada esta condición, el controlador activa el motor en sentido de bajada para comenzar el movimiento de la cortina.
-
 5. Durante el recorrido, los sensores magnéticos permiten al sistema conocer la posición de la cortina. Cuando se detecta la posición intermedia junto con el sensor superior, se activa la luz roja de la torre de señalización indicando estado de operación.
-
 6. Mientras la cortina se encuentra en movimiento, el sistema monitorea continuamente el sensor óptico y el sensor capacitivo como condiciones de seguridad.
-
 7. Si el sensor óptico detecta una persona u objeto, o si se activa el sensor capacitivo, el PLC detiene inmediatamente el motor.
-
 8. Si no ocurre ninguna condición de seguridad, la cortina continúa descendiendo hasta que el sensor magnético inferior detecta el final del recorrido.
-
 9. Al activarse el sensor inferior, el PLC detiene el motor, enciende la luz verde y activa un temporizador de 10 segundos.
-
 10. Una vez finalizado el temporizador, el PLC activa el motor en sentido de subida hasta que el sensor magnético superior vuelve a detectarse, regresando el sistema a su estado inicial.
 ---
 
 ## Diagrama de bloques funcionales del programa.
+![Esquema](../GIFTS/Esquemafinal.png)
 
 ---
 ## Validación de sensores
