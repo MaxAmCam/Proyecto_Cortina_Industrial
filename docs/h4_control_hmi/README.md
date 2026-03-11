@@ -70,7 +70,7 @@ Las pruebas realizadas confirmaron que todas estas condiciones de seguridad func
 ## Fallas detectadas
 1) Atascamiento de la cortina: la cortina se atoraba inmediatamente al activarse el motor.
 2) Falla en el LOGO!: el módulo no encendía, dejando inoperativos todos los sensores y el motor de accionamiento.
-3) El HMI presentó fallas durante la carga en el LOGO!.
+3) El sensor inductivo indicaba estar encendido cuando en realidad no lo estaba.
 
 ---
 
@@ -79,7 +79,7 @@ Las pruebas realizadas confirmaron que todas estas condiciones de seguridad func
 |-------|------------------|-----------|
 | Atascamiento en la cortina | Volteamos la cortina y corregimos fallas en la impresión 3D | La cortina funcionó correctamente |
 | El LOGO! no encendía | Cambiamos el fusible | El LOGO! se encendió sin problemas |
-| El HMI no cargó correctamente en el LOGO! | Volvimos a realizar la instalación | El programa funcionó de manera correcta |
+|  El sensor inductivo tenía lógica invertida | Cambiamos la configuración en el programa | El sensor solo marca encendido cuando se activa |
 
 ---
 ## Preparación para demostración final
