@@ -31,13 +31,6 @@ Describe:
 - Condiciones lógicas
 - Interlocks o seguridades implementadas
 ---
-## HMI – Interfaz Humano-Máquina
-Describe:
-- Pantallas implementadas
-- Variables mostradas
-- Acciones disponibles para el usuario
-Adjunta captura(s) de pantalla del HMI.
----
 ## Fallas detectadas
 Describe **máximo 3** fallas relevantes encontradas durante la validación.
 ---
