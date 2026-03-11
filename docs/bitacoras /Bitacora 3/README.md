@@ -33,28 +33,29 @@ Esta semana aplicamos conceptos de automatización y control propios de la ingen
 # Bitácora – Semana 3- Claudio
 
 ## Tema de la semana
-(Sensores / Actuadores / Control / HMI)
+( Actuadores / Control )
 
 ## Actividades realizadas
-Describe brevemente lo que trabajó el equipo.
+De¿urante esta semana terminamos todas las conexiones faltantes, terminamos de configurar el LOGO!, modificamos parte del codigo para su desempeño optimo y montamos la cortina.
 
 ## Decisiones de ingeniería
 | Decisión | Alternativas | Justificación |
 |--------|-------------|---------------|
+Usar reles para invertir el sentido del motor | Cambiar el sentido del motor por medio de mas cableado| Usamos los reles para poder invertid la polaridad  asi cambiar la direccion de giro del motor en el momento en que sea conveniente.
 
 ## Problema técnico encontrado
-Describe un problema concreto.
+El programa cargado en el LOGO! no funciono como esperamos. La cortina se atascaba al momento de encender el motor.
 
 ## Solución aplicada
-Explica cómo se resolvió.
+Cambiamos el programa del LOGO! para que cada sensor haga su trabajo, volvimos a instalar y cambiamos la posicion de la cortina.
 
 ## Conexión con el curso
 ¿Qué concepto de MR2022 aplicaste esta semana?
-
+El control del LOGO! por medio de programacion, para poder crear la interfaz humano maquina. Implementamos medidas de seguridad con sensores, para que existan paradas de emergencia. Implementacion de interlocks.
 ## Autoevaluación
 - ⬜ Muy perdido
 - ⬜ Con dudas
-- ⬜ Entendiendo
+- ☑️ Entendiendo
 - ⬜ Dominando
 
 # Bitácora – Semana 3- Joel
