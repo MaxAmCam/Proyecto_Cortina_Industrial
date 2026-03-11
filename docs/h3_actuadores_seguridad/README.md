@@ -37,12 +37,13 @@ Por último, el sistema cuenta con dos luces indicadoras: la lámpara roja se en
 ![Esquema](../GIFTS/Esquemafinal.png)
 
 ## Pruebas realizadas
-| Prueba | Resultado esperado | Resultado obtenido |
-|------|------------------|------------------|
-Sensor magnetico| encender la lamara ANDON mientras que la cortina este a la mitad o en parada, y subir la cortina 10s despues de estar en su punto mas bajo| Funciono con exito
-Sensor Infrarrojo| Parada de emergencia al detectar a una persona u objeto frente a la cortina | El sensor detecto con exito cualquier acercamiento y detuvo el motor
-Sensor Capacitivo | Parada de emergencia al ser presionado  | Funciono con exito
-Sensor Inductivo| Dar inicio al movimiento de la cortina | Detecta con exito objetos metalicos para dar inicio al sistema
+| Prueba              | Resultado esperado                                                                 | Resultado obtenido                                      |
+|---------------------|------------------------------------------------------------------------------------|---------------------------------------------------------|
+| Sensor magnético    | Encender la lámpara ANDON mientras la cortina esté a la mitad o en parada, y subir la cortina 10s después de estar en su punto más bajo | Funcionó con éxito                                      |
+| Sensor Infrarrojo   | Parada de emergencia al detectar a una persona u objeto frente a la cortina        | El sensor detectó con éxito cualquier acercamiento y detuvo el motor |
+| Sensor Capacitivo   | Parada de emergencia al ser presionado                                             | Funcionó con éxito                                      |
+| Sensor Inductivo    | Dar inicio al movimiento de la cortina                                             | Detecta con éxito objetos metálicos para dar inicio al sistema |
+
 
 ## Ajustes realizados
 Tuvimos que realizar cambios en el codigo para hacer que el sensor inductivo de inicio al movimiento del motor, y que los sensores infrarrojo y capacitivo hagan paradas de emergencia.
