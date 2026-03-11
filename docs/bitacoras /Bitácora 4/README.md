@@ -87,26 +87,29 @@ En esta etapa se aplicaron conceptos relacionados con la validación de sistemas
 # Bitácora – Semana 4 Sara
 
 ## Tema de la semana
-(Sensores / Actuadores / Control / HMI)
+Control y pruebas finales del sistema.
 
 ## Actividades realizadas
-Describe brevemente lo que trabajó el equipo.
+Durante esta semana realizamos pruebas al sistema completo de la cortina para verificar que todos los componentes funcionaran correctamente después de haber terminado el montaje. Probamos el motor, los sensores y el semáforo para confirmar que respondieran como queriamos. 
+
+También revisamos que los interlocks funcionaran bien para evitar que el motor intentara realizar movimientos contrarios al mismo tiempo. Durante estas pruebas detectamos algunos detalles en la posición de los sensores por lo que hicimos ajustes. Además, el profesor nos enseño sobre HMI, aunque no pudimos implementar un HMI en nuestro proyecto por falta de una tarjeta.
 
 ## Decisiones de ingeniería
 | Decisión | Alternativas | Justificación |
 |--------|-------------|---------------|
 
 ## Problema técnico encontrado
-Describe un problema concreto.
+Durante las pruebas del sistema el motor dejó de funcionar. Al revisar el sistema nos dimos cuenta de que un relé estaba mal conectado, ya que los cables se movieron mientras hacíamos otras modificaciones.
 
 ## Solución aplicada
-Explica cómo se resolvió.
+Revisamos nuevamente el cableado del sistema para asegurarnos de que todas las conexiones estuvieran bien. También utilizamos un multímetro para verificar continuidad y confirmar que no hubiera cables sueltos.
 
 ## Conexión con el curso
 ¿Qué concepto de MR2022 aplicaste esta semana?
+Esta semana aplicamos conceptos de automatización y control, al utilizar sensores, actuadores y lógica de control mediante el PLC. También nos dimos cuenta de la importancia de realizar pruebas y validaciones en sistemas automatizados para asegurar que el sistema funcione correctamente.
 
 ## Autoevaluación
 - ⬜ Muy perdido
 - ⬜ Con dudas
 - ⬜ Entendiendo
-- ⬜ Dominando
+- ☑️ Dominando
