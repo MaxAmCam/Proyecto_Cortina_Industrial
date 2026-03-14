@@ -33,7 +33,7 @@ La lógica incluye interlocks de seguridad que impiden condiciones peligrosas, c
 |---------------------------------|------------------------|-------------------|--------|-----------|----------------------------------------|
 | Magnético de Proximidad        | FESTO SME-8M-DS-24V-K-2,5-OE | 4cm | 4.6cm | ✓        | Detecta imánes robustos a mayor distancia |
 | Capacitivo de Proximidad       | LJC18A3-B-Z/BX (NPN-NO) | 0.5cm | 0.5cm| ✓        | Detecta dieléctricos/líquidos |
-| Inductivo de Proximidad        | LJ12A3-4-Z/BX (NPN-NO) | 0.4cm | 0.38cm | ✓        |  robusto en metal |
+| Inductivo de Proximidad        | LJ12A3-4-Z/BX (NPN-NO) | 0.4cm | 0.38cm | ✓        |  Robusto en metal |
 | Infrarrojo (Óptico) de Proximidad | E3F-DS30P1 (PNP-NO) | 30cm | 30cm   | ✓        | Distancia ajustable hasta 30cm, sensible a luz ambiental |
 
 
