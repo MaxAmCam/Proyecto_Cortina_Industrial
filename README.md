@@ -47,7 +47,7 @@ La lógica incluye interlocks de seguridad que impiden condiciones peligrosas, c
 ## Video demo y foto del equipo
 [(Link al video)](https://www.youtube.com/shorts/yC3Cw31sUlQ)
 
-![Imagen del equipo](https://github.com/MaxAmCam/Proyecto_Cortina_Industrial/blob/bc93e771a5abd281b9d2c3f3eba4050d9089960b/docs/GIFTS/WhatsApp%20Image%202026-03-12%20at%206.19.11%20PM.jpeg)
+![Imagen del equipo](docs/GIFTS/WhatsApp Image 2026-03-12 at 6.19.11 PM.jpeg)
 
 ## Equipo
 
