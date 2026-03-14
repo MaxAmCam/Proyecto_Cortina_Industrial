@@ -10,7 +10,9 @@ Durante el recorrido, los sensores magnéticos permiten identificar la posición
 El sistema también incluye condiciones de seguridad. Si el sensor óptico detecta la presencia de una persona o si el sensor capacitivo se activa, el sistema detiene inmediatamente el movimiento del motor. Además, el sistema cuenta con una torre de luz que indica el estado de operación mediante luces roja y verde.
 
 ## Evidencias
+[(Link al video)](https://www.youtube.com/shorts/yC3Cw31sUlQ)
 
+![Imagen del equipo](https://github.com/MaxAmCam/Proyecto_Cortina_Industrial/blob/bc93e771a5abd281b9d2c3f3eba4050d9089960b/docs/GIFTS/WhatsApp%20Image%202026-03-12%20at%206.19.11%20PM.jpeg)
 
 ## Validación del sistema
 El sistema cumple con los requerimientos iniciales del proyecto, ya que logra integrar sensores, actuadores y un controlador programable para automatizar el movimiento de una cortina. Durante las pruebas se verificó que el sistema inicia correctamente, que el motor realiza los movimientos de subida y bajada según la lógica programada y que las condiciones de seguridad detienen el sistema cuando se detecta una persona o se activa el sensor capacitivo.
