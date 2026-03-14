@@ -47,7 +47,7 @@ La lógica incluye interlocks de seguridad que impiden condiciones peligrosas, c
 ## Video demo y foto del equipo
 [(Link al video)](https://www.youtube.com/shorts/yC3Cw31sUlQ)
 
-![Imagen del equipo](docs/GIFTS/WhatsApp Image 2026-03-12 at 6.19.11 PM.jpeg)
+![Imagen del equipo](docs/GIFTS/equipo.jpeg)
 
 ## Equipo
 
