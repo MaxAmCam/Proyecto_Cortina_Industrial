@@ -30,7 +30,7 @@ La lógica incluye interlocks de seguridad que impiden condiciones peligrosas, c
 ## Resultados de pruebas
 Tabla de detección de sensores o pruebas del sistema.
 
-## Video demo
+## Video demo y foto del equipo
 [(Link al video)](https://www.youtube.com/shorts/yC3Cw31sUlQ)
 
 ## Equipo
