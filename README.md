@@ -6,7 +6,7 @@ En esta situación problema se busca automatizar una cortina de uso industrial u
 La automatización debe permitir que la cortina se enrolle hasta una altura determinada y en un tiempo específico, el cual se debe poder ajustarse desde una interfaz de operación dentro de un rango de 5 a 10 segundos. También se necesita que la altura máxima de la cortina y los tiempos de espera se puedan configurarse desde la interfaz. El sistema tiene que ser capaz de operar tanto en modo manual como en modo automático, además se debe considerar que existen diferentes tipos de usuarios con permisos distintos. Algo fundamental es la seguridad, ya que durante el movimiento de bajada se debe detectar la presencia de personas u objetos para evitar accidentes y garantizar que su funcionamiento sea seguro.
 
 ## Arquitectura del sistema
-![Diagrama del sistema](docs/GIFTS/diagramaBloques.png)
+![Diagrama del sistema](docs/GIFTS/Bloques.png)
 
 ## Componentes utilizados
 - Sensor inductivo
