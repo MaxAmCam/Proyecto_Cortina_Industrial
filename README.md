@@ -9,13 +9,16 @@ La automatización debe permitir que la cortina se enrolle hasta una altura dete
 ![Diagrama del sistema](docs/GIFTS/Bloques.png)
 
 ## Componentes utilizados
-- Sensor inductivo
-- Sensor capacitivo
-- Sensor óptico
-- Sensor magnético
+Se utilizan los siguientes sensores:
+- Sensor inductivo LJ12A3-4-Z/BX (NPN-NO) — detección mediante campo electromagnético. Señal digital NPN normalmente abierto.
+- Sensor capacitivo LJ18A3-B-Z/BX (NPN-NO) — detección por variación de capacitancia. Señal digital NPN normalmente abierto.
+- Sensor óptico infrarrojo E3F-DS30P1 (PNP-NO) — detección por radiación infrarroja reflejada. Señal digital PNP normalmente abierto.
+- Sensor magnético FESTO SME-8M-DS-24V-K-2,5-OE — detección de campo magnético. Señal digital 24 VDC.
+
+El sistema también integra los siguientes componentes:
 - Siemens LOGO
 - Relés
-- Motor DC 24V
+- Motor DC 24 V
 - Torre de luces
 
 ## Lógica de control
