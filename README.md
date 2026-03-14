@@ -30,6 +30,14 @@ La lógica incluye interlocks de seguridad que impiden condiciones peligrosas, c
 ## Resultados de pruebas
 Tabla de detección de sensores o pruebas del sistema.
 
+| Sensor                          | Modelo                  | Condición                  | Esperado          | Medido | Resultado | Observaciones                          |
+|---------------------------------|------------------------|----------------------------|-------------------|--------|-----------|----------------------------------------|
+| Magnético de Proximidad        | FESTO SME-8M-DS-24V-K-2,5-OE | - | - | 4.2mm | ✓        | - |
+| Capacitivo de Proximidad       | LJC18A3-B-Z/BX (NPN-NO) | - | - | 9.5mm | ✓        | Detecta dieléctricos/líquidos |
+| Inductivo de Proximidad        | LJ12A3-4-Z/BX (NPN-NO) | - | - | 3.8mm | ✓        |  robusto en metal |
+| Infrarrojo (Óptico) de Proximidad | E3F-DS30P1 (PNP-NO)   | -     | - | 300mm   | ✓        | Distancia ajustable hasta 30cm, sensible a luz ambiental |
+
+
 ## Video demo y foto del equipo
 [(Link al video)](https://www.youtube.com/shorts/yC3Cw31sUlQ)
 
