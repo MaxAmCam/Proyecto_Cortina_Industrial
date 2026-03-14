@@ -32,6 +32,7 @@ Tabla de detección de sensores o pruebas del sistema.
 
 ## Video demo y foto del equipo
 [(Link al video)](https://www.youtube.com/shorts/yC3Cw31sUlQ)
+![Imagen del equipo](https://github.com/MaxAmCam/Proyecto_Cortina_Industrial/blob/bc93e771a5abd281b9d2c3f3eba4050d9089960b/docs/GIFTS/WhatsApp%20Image%202026-03-12%20at%206.19.11%20PM.jpeg).
 
 ## Equipo
 
