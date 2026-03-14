@@ -32,10 +32,10 @@ Tabla de detección de sensores o pruebas del sistema.
 
 | Sensor                          | Modelo                   | Esperado          | Medido | Resultado | Observaciones                          |
 |---------------------------------|------------------------|-------------------|--------|-----------|----------------------------------------|
-| Magnético de Proximidad        | FESTO SME-8M-DS-24V-K-2,5-OE | - | 4.2mm | ✓        | - |
-| Capacitivo de Proximidad       | LJC18A3-B-Z/BX (NPN-NO) | - | 9.5mm | ✓        | Detecta dieléctricos/líquidos |
-| Inductivo de Proximidad        | LJ12A3-4-Z/BX (NPN-NO) | - | 3.8mm | ✓        |  robusto en metal |
-| Infrarrojo (Óptico) de Proximidad | E3F-DS30P1 (PNP-NO) | - | 300mm   | ✓        | Distancia ajustable hasta 30cm, sensible a luz ambiental |
+| Magnético de Proximidad        | FESTO SME-8M-DS-24V-K-2,5-OE | 4cm | 4.6cm | ✓        | Detecta imánes robustos a mayor distancia |
+| Capacitivo de Proximidad       | LJC18A3-B-Z/BX (NPN-NO) | 0.5cm | 0.5cm| ✓        | Detecta dieléctricos/líquidos |
+| Inductivo de Proximidad        | LJ12A3-4-Z/BX (NPN-NO) | 0.4cm | 0.38cm | ✓        |  robusto en metal |
+| Infrarrojo (Óptico) de Proximidad | E3F-DS30P1 (PNP-NO) | 30cm | 30cm   | ✓        | Distancia ajustable hasta 30cm, sensible a luz ambiental |
 
 
 ## Video demo y foto del equipo
